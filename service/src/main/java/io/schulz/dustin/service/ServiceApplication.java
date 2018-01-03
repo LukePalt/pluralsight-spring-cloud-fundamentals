@@ -1,12 +1,12 @@
-package io.schulz.dustin.discoveryserver;
+package io.schulz.dustin.service;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DiscoveryServerApplication {
+public class ServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DiscoveryServerApplication.class, args);
+		SpringApplication.run(ServiceApplication.class, args);
 	}
 }
