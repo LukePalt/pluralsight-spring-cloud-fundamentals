@@ -11,7 +11,6 @@ import java.time.LocalTime;
 
 @SpringBootApplication
 @RestController
-@EnableDiscoveryClient
 public class RibbonTimeServiceApplication {
 
     @Value("${server.port}")
