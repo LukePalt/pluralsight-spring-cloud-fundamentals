@@ -3,3 +3,6 @@ time-service:
     eureka:
       enabled: false
     listOfServers: http://localhost:8044, http://localhost:8055
+
+server:
+  port: 8033
